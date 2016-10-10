@@ -1,0 +1,114 @@
+/*
+For each 
+article on your blog page, you need to have the following things to be unique.
+
+
+A different background color.
+A different font family.
+A different font size.
+A different font color.
+A different line height.
+A different padding value.
+Each should have a border,
+ but with rounded corners of different size (e.g. one article could have barely rounded borders, but the next one could be almost circular in shape)
+
+each article will have its own id.
+different attributes:
+
+background-color: ;
+font-family: ;
+font-size: ;
+font-color: ;
+line-height: ;
+padding: ;
+border: ;
+*/
+
+nav {
+	background-color: green;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	margin: 0 auto;
+	background-color: limegreen;
+
+}
+
+
+#content {
+	background-color: slategrey;
+	border: 5px solid black;
+	font-size: 1em;
+}
+
+#vegans{
+	background-color: cadetblue ;
+	font-family: Georgia;
+	font-size: .95em ;
+	color: black;
+	line-height: .75em ;
+	padding: 1.5em ;
+	border: 4px solid green ;
+	border-radius: 40px;
+	margin-bottom: 20px;
+
+}
+
+#meateaters{
+	background-color: red ;
+	font-family: serif, times, Georgia;
+	font-size: .90em ;
+    color: white;
+	line-height: 1.5em ;
+	padding: 3em ;
+	border: 4px dotted green;
+	border-radius: 10px;
+	margin-bottom: 20px;
+
+}
+
+#fitness{
+	background-color: yellow ;
+	font-family: fantasy;
+	font-size: .85em ;
+	color: red;
+	line-height: 1.75em ;
+	padding: 2em ;
+	border: 4px dashed green;
+	border-radius: 15px;
+	margin-bottom: 20px;
+
+}
+
+#doglovers{
+	background-color: white ;
+	font-family: monospace; 
+	font-size:.80em;
+	color: black ;
+	line-height: 2em ;
+	padding: 2.5em ;
+	border: 4px solid blue ;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+#sportsfans{
+	background-color: cadetblue ;
+	font-family: "Times New Roman";
+	font-size: .75em ;
+	color: forestgreen;
+	line-height: 2.2em;
+	padding: 2.75em ;
+	border: 4px solid white ;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+
