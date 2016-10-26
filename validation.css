@@ -5,15 +5,38 @@ When a valid web URL or email address is entered into the corresponding field, t
 If the value is invalid, the color should be red.
 
 
-input[type="email"]:valid, input[type="URL"]:valid {
+input[type="email"]:valid, input[type="email"]:valid {
 	color: green;
 	border: 4px solid green;
 }
 
-input[type="email"]:invalid, [type="URL"]:invalid {
+input[type="email"]:invalid, [type="email"]:invalid {
 	color: red;
 	border: 4px solid red;
 }
+
+input[type="tel"]:valid, input[type="tel"]:valid {
+	color: green;
+	border: 4px solid green;
+}
+
+input[type="tel"]:invalid, [type="tel"]:invalid {
+	color: red;
+	border: 4px solid red;
+}
+
+
+input[type="url"]:valid, input[type="url"]:valid {
+	color: green;
+	border: 4px solid green;
+}
+
+input[type="url"]:invalid, [type="url"]:invalid {
+	color: red;
+	border: 4px solid red;
+}
+
+
 
 /*input:invalid {
 
